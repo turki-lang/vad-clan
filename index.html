@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VAD Clan</title>
+<style>
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  background: #0a0a0a;
+  color: #d9d9d9;
+  text-align: center;
+}
+header {
+  background: linear-gradient(180deg,#0a0a0a 0%,#141414 100%);
+  padding: 60px 20px;
+  border-bottom: 1px solid rgba(255,255,255,.05);
+}
+header h1 {
+  font-size: 48px;
+  margin: 0 0 10px;
+  color: #fff;
+}
+header p {
+  font-size: 20px;
+  color: #aaa;
+  margin: 0 0 30px;
+}
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.btn {
+  display: inline-block;
+  padding: 14px 28px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  background: #2f2f2f;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #555;
+}
+main {
+  max-width: 900px;
+  margin: 0 auto 40px;
+  padding: 0 16px;
+}
+section {
+  background:#111;
+  padding:16px;
+  border-radius:8px;
+  margin-bottom:18px;
+  border:1px solid rgba(255,255,255,.05);
+}
+h2 {
+  margin:0 0 12px;
+  font-size:20px;
+  color:#fff;
+}
+ul {
+  list-style:none;
+  padding:0;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  justify-content:center;
+}
+li {
+  background:#1a1a1a;
+  padding:8px 10px;
+  border-radius:6px;
+  min-width:100px;
+  text-align:center;
+}
+footer {
+  text-align:center;
+  color:#777;
+  padding:20px 0;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>VAD Clan</h1>
+  <p>مـتـخـصـصـون فـي روبـلـوكـس</p>
+  <div class="actions">
+    <a href="https://discord.gg/GBYSXbYQkh" class="btn">انضم للسيرفر</a>
+    <a href="ضع_رابط_التبرع" class="btn">soon</a>
+    <a href="https://vad-annconect.vercel.app" class="btn">تـعـريـف الـكـلان</a>
+    <a href="https://vad-shhada.vercel.app" class="btn">شـراء شـهـاده</a>
+  </div>
+</header>
+
+<main>
+  <section>
+    <h2>مـؤسسين ومبرمجين الكلان</h2>
+    <ul>
+      <li>3bo • رئـيس الـكلان</li>
+      <li>- azex . • رئـيـس الثـاني</li>
+      <li>الـكـلان • مـبـرمـجـين</li>
+      <li> - azex . • مـبـرمج</li>
+      <li>soon • soon</li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  © <span id="year"></span> VAD Clan
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
